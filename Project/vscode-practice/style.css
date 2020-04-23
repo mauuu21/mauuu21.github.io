@@ -1,0 +1,59 @@
+body {
+    color: greenyellow;
+    background-color: grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+h1 {
+    display: block;
+    margin: auto;
+    margin-left: 150px;
+}
+p {
+    width: fit-content;
+    color: white;
+    background: blue;
+    font-family: 'Roboto Mono', monospace;
+}
+.enjoy {
+    margin: auto;
+    margin-left: 200px;
+}
+main{
+    margin-top: 30px;
+    font-family: 'Bangers', cursive;
+    display: flex;
+}
+.left{
+    flex-grow: 1;
+
+}
+.right{
+flex-grow: 1;
+}
+a {
+    color: white;
+    display: block;
+  font-size: 25px;
+  text-decoration: none;
+  margin: auto;
+}
+a:hover {
+    color: red;
+transform: scale3(1.4);
+}
+a:active {
+    color: green;
+}
+a:link {
+    color: white;
+}
+a:visited{
+    color: black;
+}

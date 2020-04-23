@@ -1,0 +1,46 @@
+body {
+  width: 700px;
+  height: 400px;
+  margin: auto auto auto;
+  flex-wrap: wrap;
+}
+div {
+  display: flex;
+  width: 700px;
+  height: 400px;
+}
+
+header {
+ height: 100px; 
+  width: 100%;
+  background: aqua;
+}
+lside {
+ flex-grow: 2;
+  background: orange;
+}
+rside {
+  flex-grow: 2;
+  background: purple;
+}
+
+main {
+  flex-grow: 6;
+  background: red;
+  margin: 0 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  
+}
+blackbox {
+  background: black;
+  height: 100px;
+  width: 100px;
+  margin: 0 70px 70px;
+}
+footer {
+  height: 100px; 
+  width: 100%; 
+  background: blue;
+}
