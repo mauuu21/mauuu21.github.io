@@ -1,0 +1,26 @@
+main {
+ 
+}
+h1 {
+  color: #FF5555;
+  font-family: 'Baloo Thambi 2', cursive;
+   font-weight: bold;
+}
+h2 {
+  color: purple;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+p {
+  width: 350px;
+}
+.pink {
+  color: pink;
+
+}
+.roman {
+  list-style-type: upper-roman;
+  font: underline; 
+}
+.square {
+  list-style-type: square;
+}
