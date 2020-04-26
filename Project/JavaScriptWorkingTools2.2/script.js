@@ -1,12 +1,12 @@
+let names = ['Tomi', 'Csilla', 'Ildi', 'Zoli', 'Gergely'];
+names.push('Mate');
+console.log (names);
 
-
-$('body').append('<ul>Names</ul>');
-$('ul').append('<li></li>');
-
-let valueNames (array) => {
-    array.forEach(value => {
-console.log(value);
-    });
+names.forEach((names) =>{
+    if(names === 'Mate'){
+        $('#list').append('<li class= "names"><b>' + names +'</b></li>');
+    
+}else{
+    $('#list').append('<li class= "names">' + names +'</li>');
 };
-let names = [1, 2,];
-console.log(valueNames(names));
+});
