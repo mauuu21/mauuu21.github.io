@@ -36,14 +36,37 @@ $('#removeButton').click(() => {
 let age = 29;
 
 console.log('Starting the if');
-
+console.log('This is a Sentence'.toLowerCase());/*.toLowerCase -->  csak kisbetűvel írja ki*/
 if (age < 18) {
 console.log('not old enough to drink');
 } else {
 console.log('Old enough to drink');
 }
 
-console.log(' Closing the if')
+console.log(' Closing the if');
 
+let colors = ['orange', 'lime', 'magenta', 'yellow', 'blue'];
+$('#box-container').append('<div class= "box"></div>');
+$('.box:last-child').css('background', colors[0]);
+$('#box-container').append('<div class= "box"></div>');
+$('.box:last-child').css('background', colors[1]);
+$('#box-container').append('<div class= "box"></div>');
+$('.box:last-child').css('background', colors[2]);
+$('#box-container').append('<div class= "box"></div>');
+$('.box:last-child').css('background', colors[3]);
+$('#box-container').append('<div class= "box"></div>');
+$('.box:last-child').css('background', colors[4]);
 
+/*egyik megoldás,hogy hogyan adjunk hozzá elemet js.-ben + css,+html elemekkel együtt*/
 
+colors.push('purple');
+
+colors.forEach((color) => {
+    $('#box-container').append('<div class= "box"></div>');
+    $('.box:last-child').css('background', color);
+});
+/*másik megoldás-- > ez a praktikus*/
+
+for (i = 0; i < 100; i = i++) {
+console.log(i);
+};

@@ -5,3 +5,7 @@ h1 {
 .blue {
     background: blue;
 }
+.box {
+    width: 100px;
+    height: 100px;
+}
