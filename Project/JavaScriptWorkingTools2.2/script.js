@@ -10,3 +10,46 @@ names.forEach((names) =>{
     $('#list').append('<li class= "names">' + names +'</li>');
 };
 });
+
+$('#button1').click(() => {
+    console.log('Yea,you clicked me');
+});
+$('#button2').click(() => {
+    $('#button1').text('nope');
+});
+let color = ['blue'];
+
+/*color.forEach((color) => {
+    $('#button3').click(() => {
+        $('#button1').css('background', color); 
+        $('#button2').css('background', color);
+     });
+});*/
+
+var i = 0; 
+
+
+    $('#button3').click(() => {
+        i++;
+        if(i <= 1) {
+            var inputColor = document.getElementById("input1").value;
+    $('#button3').css('background', inputColor ); 
+    
+    console.log(i + ' ' + inputColor);
+        } else {
+            $('#button3').click(() => {
+                console.log('stop pushing ME!!')
+            });
+        };
+    
+});
+
+
+    
+  
+       
+     
+    
+
+
+
