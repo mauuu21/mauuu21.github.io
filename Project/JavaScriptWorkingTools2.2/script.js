@@ -1,3 +1,14 @@
+
+
+let additionalBlock = {
+    title: "Added with javascript",
+    text: "This block was added using JavaScript,s Jquery libery. How awesome!"
+};
+
+$('#object').append('<h1>' + additionalBlock.title + '</h1>',
+'<p>' + additionalBlock.text + '</p>');
+
+
 let names = ['Tomi', 'Csilla', 'Ildi', 'Zoli', 'Gergely'];
 names.push('Mate');
 console.log (names);
@@ -43,6 +54,7 @@ var i = 0;
         };
     
 });
+
 
 
     
