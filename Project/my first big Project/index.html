@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
     <title>Gallery</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,24 +12,50 @@
         <div class= "lside">
             <img id="left" src="arrow.png" alt="">
         </div>
-        <main>
-            <img src="aurora.png" width="700px" height="500px" alt="">
+        <main id= "main">
+            <img id="photo" src="" width="100%" height="auto" alt="">
+            <div id= "textPlace">
+                <h1 id= "h1"></h1>
+                <p id= "p"></p>
+            </div>
         </main>
         <div class= "rside">
             <img id="right" src="arrow.png" alt="">
         </div>
     </div>
         <footer id="footer">
-            <img class= "pictures" alt= "aurora" src="aurora.png" height="100px" width= "100px">
-            <img class= "pictures" alt= "bird"src="bird.png" height="100px" width= "100px">
-            <img class= "pictures" alt= "butterfly"src="butterfly.png" height="100px" width= "100px">
-            <img class= "pictures" alt= "castle-woman"src="castle-woman.png" height="100px" width= "100px">
-            <img class= "pictures" alt= "frog"src="frog.png" height="100px" width= "100px">
-            <img class= "pictures" alt= "jellyfish"src="jellyfish.png" height="100px" width= "100px">
-            <img class= "pictures" alt= "tree"src="tree.png" height="100px" width= "100px">
+            
+            <div class= "picturesBox">
+                <img alt= "aurora" src="aurora.png" height= "100px" width= "100px" class= "pictures">
+                <div id= "thumbnail">Aurora</div>
+            </div>
+            <div class= "picturesBox">
+                <img alt= "bird" src="bird.png" height="100px" width= "100px" class= "pictures">
+                <div id= "thumbnail">Bird</div>
+            </div>
+            <div class= "picturesBox">
+                <img alt= "butterfly" src="butterfly.png" height="100px" width= "100px" class= "pictures">
+                <div id= "thumbnail">Butterfly</div>
+            </div>
+            <div class= "picturesBox">
+                <img alt= "castle-woman" src="castle-woman.png" height="100px" width= "100px" class= "pictures">
+                <div id= "thumbnail">Fantasy</div>
+            </div>
+            <div class= "picturesBox">
+                <img alt= "frog"src="frog.png" height="100px" width= "100px" class= "pictures">
+                <div id= "thumbnail">Mr. Frog</div>
+            </div>
+            <div class= "picturesBox">
+                <img alt= "jellyfish" src="jellyfish.png" height="100px" width= "100px" class= "pictures">
+                <div id= "thumbnail">Jellyfish</div>
+            </div>
+            <div class= "picturesBox">
+                <img alt= "tree" src="tree.png" height="100px" width= "100px" class= "pictures">
+                <div id= "thumbnail">Tree's</div>
+            </div> 
         </footer>
+            
         
-    
     
     <script src= "https://code.jquery.com/jquery-3.5.0.min.js"></script>
     <script src= "script.js"></script>
