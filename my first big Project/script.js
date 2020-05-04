@@ -93,42 +93,56 @@ let borderdefault = 'ridge';
 
 $('#0').click (() => {
     $('#photo').attr('src',gallery[0].photo);
+    $('#title').text(gallery[0].title);
+    $('#description').text(gallery[0].text);
     currentPhoto = 0;
     $('#0').css('border', borderCss);
     $('#1, #2, #3, #4, #5, #6').css('border', borderdefault);
 });
 $('#1').click (() => {
     $('#photo').attr('src',gallery[1].photo);
+    $('#title').text(gallery[1].title);
+    $('#description').text(gallery[1].text);
     currentPhoto = 1;
     $('#1').css('border', borderCss);
     $('#0, #2, #3, #4, #5, #6').css('border', borderdefault);
 });
 $('#2').click (() => {
     $('#photo').attr('src',gallery[2].photo);
+    $('#title').text(gallery[2].title);
+    $('#description').text(gallery[2].text);
     currentPhoto = 2;
     $('#2').css('border', borderCss);
     $('#1, #0, #3, #4, #5, #6').css('border', borderdefault);
 });
 $('#3').click (() => {
     $('#photo').attr('src',gallery[3].photo);
+    $('#title').text(gallery[3].title);
+    $('#description').text(gallery[3].text);
     currentPhoto = 3;
     $('#3').css('border', borderCss);
     $('#1, #2, #0, #4, #5, #6').css('border', borderdefault);
 });
 $('#4').click (() => {
     $('#photo').attr('src',gallery[4].photo);
+    $('#title').text(gallery[4].title);
+    $('#description').text(gallery[4].text);
     currentPhoto = 4;
     $('#4').css('border', borderCss);
     $('#1, #2, #3, #0, #5, #6').css('border', borderdefault);
 });
 $('#5').click (() => {
     $('#photo').attr('src',gallery[5].photo);
+    $('#title').text(gallery[5].title);
+    $('#description').text(gallery[5].text);
     currentPhoto = 5;
     $('#5').css('border', borderCss);
     $('#1, #2, #3, #4, #0, #6').css('border', borderdefault);
 });
 $('#6').click (() => {
     $('#photo').attr('src',gallery[6].photo);
+    $('#title').text(gallery[6].title);
+    $('#description').text(gallery[6].text);
     currentPhoto = 6;
     $('#6').css('border', borderCss);
     $('#1, #2, #3, #4, #5, #0').css('border', borderdefault);
