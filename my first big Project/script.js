@@ -87,6 +87,34 @@ $('#photo').attr('src', gallery[currentPhoto].photo);
 $('#title').text(gallery[currentPhoto].title);
 $('#description').text(gallery[currentPhoto].text);
 
+
+
+let loadPhoto = (photoNumber) => {
+    $('#photo').attr('src', gallery[photoNumber].photo);
+    $('#title').text(gallery[photoNumber].title);
+    $('#description').text(gallery[photoNumber].text);
+    $('.pictures').css('border', 'ridge');
+    let picturesBorder =  document.getElementById([currentPhoto]);
+    $(picturesBorder).css('border-color', 'red');
+};
+
+loadPhoto(currentPhoto);
+
+$('#right').click(() => {
+    if(currentPhoto < 6) {
+        currentPhoto++;
+        loadPhoto(currentPhoto);
+        console.log(currentPhoto);
+    };
+});
+
+$('#left').click(() =>{
+    if(currentPhoto > 0) {
+        currentPhoto--;
+        loadPhoto(currentPhoto);
+        console.log(currentPhoto);
+    };
+});
 let borderCss = 'red ridge';
 let borderdefault = 'ridge';
 
@@ -146,33 +174,6 @@ $('#6').click (() => {
     currentPhoto = 6;
     $('#6').css('border', borderCss);
     $('#1, #2, #3, #4, #5, #0').css('border', borderdefault);
-});
-
-let loadPhoto = (photoNumber) => {
-    $('#photo').attr('src', gallery[photoNumber].photo);
-    $('#title').text(gallery[photoNumber].title);
-    $('#description').text(gallery[photoNumber].text);
-    $('.pictures').css('border', 'ridge');
-    let picturesBorder =  document.getElementById([currentPhoto]);
-    $(picturesBorder).css('border-color', 'red');
-};
-
-loadPhoto(currentPhoto);
-
-$('#right').click(() => {
-    if(currentPhoto < 6) {
-        currentPhoto++;
-        loadPhoto(currentPhoto);
-        console.log(currentPhoto);
-    };
-});
-
-$('#left').click(() =>{
-    if(currentPhoto > 0) {
-        currentPhoto--;
-        loadPhoto(currentPhoto);
-        console.log(currentPhoto);
-    };
 });
 
 
