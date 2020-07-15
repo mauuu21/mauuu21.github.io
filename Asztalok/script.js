@@ -101,4 +101,14 @@ let color = ["red", "yellow","red", "yellow","red", "yellow","red", "yellow",
         $('.item16').css('background', color[q]);
         q++;
     });
+    $('#todo').click(() => {
+        let toDoList = document.getElementById("input").value;
+        $('#listBox').append('<li class= "list">' + toDoList + '<img src="bin.png" alt="">' + '<button id= "push"></button></li>');
+        $('#push:last-child').click(() => {
+            $('.list:last-child').remove('');
+          });
+          $('input').val('');
+        });
+    
+    
     
