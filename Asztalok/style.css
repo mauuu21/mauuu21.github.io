@@ -19,9 +19,6 @@ ul {
     justify-content: center;
     display: flex;
   }
-  li:hover {
-    transform: scale(1.3);
-  }
    .item1 {
     border-radius: 40px;
     background: yellow;
@@ -114,6 +111,54 @@ ul {
     background: yellow;
     cursor:pointer;
    }
+   .item1:hover{
+     transform:scale(1.4);
+   }
+   .item2:hover{
+    transform:scale(1.4);
+  }
+  .item3:hover{
+    transform:scale(1.4);
+  }
+  .item4:hover{
+    transform:scale(1.4);
+  }
+  .item5:hover{
+    transform:scale(1.4);
+  }
+  .item6:hover{
+    transform:scale(1.4);
+  }
+  .item7:hover{
+    transform:scale(1.4);
+  }
+  .item8:hover{
+    transform:scale(1.4);
+  }
+  .item9:hover{
+    transform:scale(1.4);
+  }
+  .item10:hover{
+    transform:scale(1.4);
+  }
+  .item11:hover{
+    transform:scale(1.4);
+  }
+  .item12:hover{
+    transform:scale(1.4);
+  }
+  .item13:hover{
+    transform:scale(1.4);
+  }
+  .item14:hover{
+    transform:scale(1.4);
+  }
+  .item15:hover{
+    transform:scale(1.4);
+  }
+  .item16:hover{
+    transform:scale(1.4);
+  }
    main {
       background:#00FFFF ;
       color: black;
@@ -140,6 +185,10 @@ button{
   border-color: grey;
   height: 54px;
   font-size: 17px;
+  cursor: pointer;
+}
+button:hover{
+  transform: scale(1.1);
 }
 input {
   margin-left: 25%;
