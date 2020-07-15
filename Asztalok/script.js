@@ -19,6 +19,7 @@ let color = ["red","blue","green", "yellow","red","blue","green", "yellow",
 "red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow",
 "red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow",
 "red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow","red","blue","green", "yellow",];
+    
     let a = 0;
     let b = 0;
     let c = 0;
@@ -36,7 +37,6 @@ let color = ["red","blue","green", "yellow","red","blue","green", "yellow",
     let p = 0;
     let q = 0;
 
-    
     $('.item1').click (() => {
         $('.item1').css('background', color[a]);
         a++;
@@ -101,6 +101,7 @@ let color = ["red","blue","green", "yellow","red","blue","green", "yellow",
         $('.item16').css('background', color[q]);
         q++;
     });
+    
     $('#todo').click(() => {
         let toDoList = document.getElementById("input").value;
         $('#listBox').append('<li class= "list">' + toDoList + '<img src="bin.png" alt="">' + '<button id= "push"></button></li>');

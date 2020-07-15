@@ -1,4 +1,3 @@
-
 ul {
     background: gray;
     width: 600px;
@@ -10,7 +9,6 @@ ul {
     justify-content: flex-end;
     margin-bottom: 0px;
     margin-top: 0px;
-      
   }
   li {
     width: 100px;
@@ -24,7 +22,6 @@ ul {
   li:hover {
     transform: scale(1.3);
   }
-   
    .item1 {
     border-radius: 40px;
     background: yellow;
@@ -127,7 +124,6 @@ ul {
   h1{
     margin-left: 40%;
   }
-
 h2 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
